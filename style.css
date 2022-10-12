@@ -1,0 +1,27 @@
+/*Css Reset*/
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 14px;
+    box-sizing: border-box;/*a margin is a teljes széleség része*/
+}
+/*Saját*/
+main{
+    width: 600px;
+    border: 1px gray solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: aqua;
+}
+
+img{
+    max-width: 100%;
+    border: 5px blue ridge;
+    opacity: 0.85;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1em 0;
+}
